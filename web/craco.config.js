@@ -27,14 +27,14 @@ module.exports = {
         options: {
           pages: [
             {
-              name: 'home',
-              template: './public/home.html',
-              entry: './src/pages/home/index.tsx',
+              name: 'app',
+              template: './public/app.html',
+              entry: './src/app/index.tsx',
             },
             {
-              name: 'chinese',
-              template: './public/chinese.html',
-              entry: './src/pages/chinese/index.tsx',
+              name: 'admin',
+              template: './public/admin.html',
+              entry: './src/admin/index.tsx',
             },
           ],
         },
